@@ -1,9 +1,9 @@
 body{
 	background-color: aqua; 
-   text-align: center;
    display: flex;
-   justify-content: center;
-   padding-top: 2%;
+   flex-flow: column wrap;
+   align-items: center;
+   padding-top: 0;
 }
 .box {
    display: flex;
@@ -35,7 +35,6 @@ background-color: green;
 .row:nth-child(even) .cell:nth-child(odd) {
 	 background-color: green;
 }
-
 
 .row:nth-child(2) .cell{
 background-image: url('./img/b-pawn.png');
@@ -82,4 +81,27 @@ background-image: url('./img/b-queen.png');
 }
 .row:last-child .cell:nth-child(5){
 background-image: url('./img/w-queen.png');
+}
+
+.description {
+   width: 100%;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: left;
+   max-width: 650px;
+   margin-bottom: 10px;
+}
+
+.description h1 {
+    margin: 0 auto 10px;
+    text-align: center;
+}
+
+.description p {
+    max-width: 400px;
+    margin: 0 auto 10px 0;
+    text-align-last: left;
+}
+
+.description a {
+    display: block;
 }
