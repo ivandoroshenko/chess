@@ -101,6 +101,14 @@ background-image: url('./img/w-queen.png');
     margin: 0 auto 10px 0;
     text-align-last: left;
 }
+.description ul {
+   /* padding: 0; */
+   margin: 0;
+}
+.description p,
+.description li {
+    cursor: text;
+}
 
 .description a {
     display: block;
