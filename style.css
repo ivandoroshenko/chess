@@ -105,3 +105,12 @@ background-image: url('./img/w-queen.png');
 .description a {
     display: block;
 }
+
+details {
+   cursor: pointer;
+}
+
+summary:focus {
+   outline: none;
+   cursor: pointer;
+}
